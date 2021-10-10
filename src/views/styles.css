@@ -1,0 +1,52 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.btn-sec {
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #eee;
+}
+
+.myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+.class-body {
+    height: 100%;
+    width: 100%;
+}
+
+.class {
+    height: 100%;
+    width: 100%;
+}
+
+.bg-dark {
+    background-color: #1a1a1a;
+}
+
+.events {
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
