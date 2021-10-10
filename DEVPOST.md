@@ -30,3 +30,5 @@ After combining Auth0 and hyperlocalization, the attendance of students can also
 - Next we will add more features like dining table reservation online so that students can abide by social distancing rules and don't have to wait
 - Features for disabled people like sense distincter that will help these people to join the same online lessons with ordinary students.
 - Integrating note-taking apps so that the student can take notes while attending online classes while wearing VR.
+- Find the shortest path to the destination.
+- Show the number of people who have checked in for the events/ present at that place.
