@@ -3,9 +3,9 @@ import '../bootstrap/css/bootstrap.min.css'
 
 const Register = () => {
     let pass = "";
-    if (this.props.match.props.event != null) {
-        pass = this.props.match.props.event;
-    }
+    // if (this.props.match.props.event != null) {
+    //     pass = this.props.match.props.event;
+    // }
     return (
         <div>
             <form>

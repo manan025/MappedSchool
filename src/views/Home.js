@@ -7,7 +7,7 @@ import './styles.css'
 const Home = () => {
     return (
         <>
-            <h1>Welcome to the world </h1>
+            <h1>Welcome to the Mapped School</h1>
             <div className="d-flex justify-content-around align-self-center btn-section align-middle">
                 <Button variant={"dark"}><Link to={'/map'} className={"link"}>Go to Maps</Link></Button>
                 <Button variant={"dark"}><Link to={'/class'} className={"link"}>Attend live class</Link></Button>

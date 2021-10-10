@@ -13,9 +13,10 @@ function App() {
       <Router>
         <Switch>
           <Route path={'/'} exact component={Home} />
-            <Route path={'/map'}>
-                <Redirect to={'https://mappedschool-maps.herokuapp.com/'} />
-            </Route>
+            <Route path='/map' component={() => {
+                window.location.href = 'https://mappedschool-maps.herokuapp.com/';
+                return null;
+            }}/>
             <Route path={'/class'} exact component={Class} />
             <Route path={'/checkin'} exact component={Checkin} />
             <Route path={'/register/'} exact component={Register} />
